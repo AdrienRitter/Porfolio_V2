@@ -10,7 +10,7 @@
     "clean": "rimraf dist",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx,.astro .",
     "build-types": "tsc --noEmit --pretty",
-    "prepare": "cd .. && husky install"
+    "prepare": "if [ -z \"$CI\" ]; then husky install; fi"
   },
   "devDependencies": {
     "@astrojs/react": "^0.1.3",
