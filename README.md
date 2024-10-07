@@ -25,18 +25,18 @@ Here’s an overview of the main folders and files:
 To run this project locally, follow these steps:
 
 1. Clone this repository:
-   git clone https://github.com/AdrienRitter/Porfolio_V2.git
+      git clone https://github.com/AdrienRitter/Porfolio_V2.git
 
-2.Navigate to the project directory:
-  cd Porfolio_V2/portfolioWac2/Astro-boilerplate
+2. Navigate to the project directory:
+     cd Porfolio_V2/portfolioWac2/Astro-boilerplate
+   
+3. Install dependencies:
+     npm install
 
-3.Install dependencies:
-  npm install
+4. Start the development server:
+     npm run dev
 
-4.Start the development server:
-  npm run dev
-
-5.Open http://localhost:3000 in your browser to view the development site.
+5. Open http://localhost:3000 in your browser to view the development site.
 
 
 🖥️ Deployment
